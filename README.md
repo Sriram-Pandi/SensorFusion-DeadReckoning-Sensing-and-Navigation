@@ -1,4 +1,4 @@
-**Title:** Navigation with IMU and Magnetometer in ROS
+**Title:** Sensor Fusion - Dead Reckoning, Sensing, and Navigation
 
 **Description:**
 
