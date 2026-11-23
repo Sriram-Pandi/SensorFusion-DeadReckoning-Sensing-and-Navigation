@@ -26,3 +26,10 @@ In this project, the focus was on building a comprehensive navigation stack empl
    - Addressed specific questions laid out in the project brief, providing insights into the performance of the VectorNav IMU in dead reckoning scenarios.
 
 By the conclusion of this lab, I honed my skills in sensor fusion, dead reckoning, and navigation using both GPS and IMU data. This project shed light on the intricate dance of combining data from multiple sensors to derive more reliable and accurate navigation estimates.
+
+## Source files and recordings
+
+- [Lab report](src/analysis/RSN-Lab-4_Report.pdf)
+- [MATLAB analysis](src/analysis/analysis.m) and [Python analysis](src/analysis/python_Script.py)
+
+The Python analysis expects separate driving and circular-motion ROS bags with GPS or IMU recordings. Supply the external bags, update their paths, and install bagpy, NumPy, pandas, Matplotlib, SciPy, and PyAstronomy.
