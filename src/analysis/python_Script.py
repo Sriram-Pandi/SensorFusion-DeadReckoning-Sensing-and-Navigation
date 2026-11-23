@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1xRHsVZOfudqs-NP_MysXlAXNmn2-haIW
 """
 
-pip install bagpy
+
 
 from mpl_toolkits import mplot3d
 import bagpy
@@ -281,7 +281,7 @@ plt.show()
 # plt.plot(magyawuncrcted, label = 'yaw_raw') 
 plt.show()
 
-from scipy.signal.filter_design import butter
+from scipy.signal import butter
 from scipy import signal
 import numpy
 
@@ -470,9 +470,9 @@ plt.show()
 
 """### **MY TRIALS**"""
 
-pip install PyAstronomy
 
-from scipy.sparse.linalg.isolve.utils import zeros
+
+from numpy import zeros
 from PyAstronomy import pyasl
 import string
 import numpy
