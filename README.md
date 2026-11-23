@@ -33,3 +33,7 @@ By the conclusion of this lab, I honed my skills in sensor fusion, dead reckonin
 - [MATLAB analysis](src/analysis/analysis.m) and [Python analysis](src/analysis/python_Script.py)
 
 The Python analysis expects separate driving and circular-motion ROS bags with GPS or IMU recordings. Supply the external bags, update their paths, and install bagpy, NumPy, pandas, Matplotlib, SciPy, and PyAstronomy.
+
+## Verification workflow
+
+Confirm the driving bag contains `/gps` and `/imu` and that the circular-motion bag contains `/imu`. Use the same recorded intervals when comparing MATLAB and Python output. The analysis estimates a trajectory from offline sensor recordings, so the report is the reference for interpreting the data and coordinate conventions.
